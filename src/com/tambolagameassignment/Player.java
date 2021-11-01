@@ -19,7 +19,6 @@ public class Player {
     public void showTicket() {
         int count = 1;
         for (Integer ticketValue : ticket) {
-            int ticket_Value = it.next();
             System.out.printf("%3d  |", ticketValue);
             if (count % 5 == 0) System.out.println();
             if (count % 5 == 0 && count != 15) System.out.print(" | ");
